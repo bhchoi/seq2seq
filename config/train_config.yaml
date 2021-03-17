@@ -1,0 +1,10 @@
+model:
+  model_type: seq2seq
+  embedding_dim: 1000
+  enc_hidden_dim: 1000
+  dec_hidden_dim: 1000
+  n_layers: 4
+  dropout_ratio: 0.1
+trainer:
+  task: "20210307"
+  log_path: logs
